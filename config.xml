@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "com.mobileteapot.test"
+	version 	= "1.0.0">
+
+	<name>MobileTeapot App</name>
+
+	<description>
+		Generated with Mobile Teapot
+	</description>
+
+	<author href="http://www.squarevector.nl"
+		email="info@squarevector.nl">
+		SquareVector
+	</author>
+	<access origin="*" />
+	<icon src="icon.png" gap:role="default" />
+	<icon src="icon.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icon-mdpi.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icon-hdpi.png" gap:platform="android" gap:density="hdpi" />
+
+	<feature name="http://api.phonegap.com/1.0/network"/>
+
+	<preference name="orientation" value="default" />
+	<gap:splash src="splash.png" />
+	
+</widget>
